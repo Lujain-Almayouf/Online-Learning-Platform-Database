@@ -1,0 +1,12 @@
+insert into Instructor values('eehq33@gmail.com', 'hana', 'almajed', 'h123409875'); insert into Instructor values('sshq22@gmail.com', 'safa', 'aseeri', 's112234455'); insert into Instructor values('aahq44@gmail.com', 'amani', 'almajed', 'a009988866');
+insert into Student values('aml12@gmail.com', 'amal', 'alharbi', 'am33449908'); insert into Student values('sho23@gmail.com', 'shoug', 'alzamel', 'sh89776543'); insert into Student values('samo88@gmail.com', 'sama', 'aseeri', 's234679742'); insert into Student values('ahmed22@gmail.com', 'Ahmed', 'aseeri', 'a444679742'); insert into Student values('re.fa123@gmail.com', 'Reema', 'fahad', 's234679742');
+insert into Course values('2453739270','2022 Complete Python From Zero to Hero in Python','Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games',23.99,83,'English', 22.25 ,0, 'All Level','Programing Languages', 'eehq33@gmail.com');
+insert into Course values('8357327651', 'Machine Learning A-ZTM: Hands-On Python & R In Data Science', 'Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included',20.99,50,'English', 44.5 ,32, 'All Level','Data Science', 'aahq44@gmail.com');
+insert into Course values('952685468', 'C# arabic Level1: C sharp basics - OOP','Learn Professional C# Coding! 27 Hours of Content, 7 Hands-On Projects, 2 Unity 3D Games, 16 Coding Exercises, and more!',11.99,60,'Arabic', 27.31 ,3, 'Beginner Level','Programing Languages', 'eehq33@gmail.com');
+insert into Course values('7842569420','Digital Marketing Certification: Master Digital Marketing','Join Over 100.000 Students Who Have Already Learned All The Secrets of Digital Marketing. Be a Digital Marketing Expert',12.99,86, 'English', 3.1 ,0, 'Professional','Digital Marketing', 'sshq22@gmail.com');
+16
+insert into Enrollment values('0912356438','Visa', 12.99, '11/2021' , '2453739270', 'samo88@gmail.com');
+insert into Enrollment values('6284520176','Visa', 20.99, '7/2021' , '8357327651', 'aml12@gmail.com');
+insert into Enrollment values('9625346790','Apple pay' , 23.99, '12/2020', '2453739270', 'sho23@gmail.com');
+insert into Enrollment values('9826442810','Apple pay' , 35.98, '12/2020', '952685468', 'sho23@gmail.com');
+insert into Enrollment values('3297526192', 'Mada', 12.99, '3/2021','7842569420', 're.fa123@gmail.com');
