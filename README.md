@@ -1,5 +1,5 @@
 # Online-Learning-Platform-Database
-This project focuses on developing a database management system for Udemy, an online course platform. The system allows students to enroll in courses and provides instructors with the ability to publish their own courses and earn profits. The purpose of this project is to maintain the data used and generated to support online courses and facilitate information sharing between instructors and students.
+This project focuses on developing a database management system, an online course platform. The system allows students to enroll in courses and provides instructors with the ability to publish their own courses and earn profits. The purpose of this project is to maintain the data used and generated to support online courses and facilitate information sharing between instructors and students.
 
 ## Features:
 ### Student View: 
