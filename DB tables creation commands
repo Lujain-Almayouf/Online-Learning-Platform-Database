@@ -1,0 +1,23 @@
+CREATE TABLE Instructor (Email varchar(30) not null, FirstName varchar(15) not null, LastName varchar(15) not null, Password varchar(10) not null, primary key(Email));
+CREATE TABLE Student (Email varchar(30) not null, FirstName varchar(15) not null, LastName varchar(15) not null, Password varchar(10) not null, primary key(Email));
+CREATE TABLE Course
+(CourseID varchar(10) not null,
+CourseName varchar(100) not null, CourseDescription varchar(1000) not null, Price decimal(4) not null,
+check(Price between 0000 and 9999), Discount decimal(2) not null,
+check(Discount between 00 and 99),
+language varchar(15) not null,
+NumOfHours Decimal(3) not null, check(NumOfHours BETWEEN 001 and 999), NumOfArticals Integer not null, check(NumOfHours BETWEEN 000 and 999), Levell varchar(40) not null,
+N N N N
+15
+Category varchar(40) not null,
+Email varchar(30) not null,
+primary key(CourseID),
+foreign key(Email) REFERENCES Instructor(Email)); CREATE TABLE Enrollment
+(EnrollmentID varchar(10) not null,
+PaymentMethod varchar(15) not null,
+check (PaymentMethod IN('Visa','Mada','Apple pay')), TotalPrice Decimal(4) not null,
+check (TotalPrice BETWEEN 0 and 9999), DateOfEnrollment varchar(10) not null,
+primary key(EnrollmentID),
+CourseID varchar(10) not null,
+Email varchar(30) not null,
+foreign key(CourseID)REFERENCES Course(CourseID), foreign key(Email)REFERENCES Student(Email));
